@@ -1,1 +1,1 @@
-# djetdatalogger
+# D-Jetronic ECU Connector
