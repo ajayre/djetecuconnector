@@ -394,8 +394,7 @@
         "microvia_drill": 0.1,
         "name": "4A",
         "nets": [
-          "/12V_1",
-          "/12V_2"
+          "/12V_1"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
