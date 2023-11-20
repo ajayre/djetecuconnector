@@ -6,7 +6,7 @@
 
   (title_block
     (title "Male ECU Connector for D-Jetronic")
-    (date "2023-11-11")
+    (date "2023-11-19")
     (rev "V1.1")
     (company "djetronic.org")
   )
@@ -3133,10 +3133,13 @@
     (uuid 00000000-0000-0000-0000-000063a3ff2d)
     (property "Reference" "J1" (id 0) (at 21.7678 28.7782 0))
     (property "Value" "ANALYZER" (id 1) (at 21.7678 31.0896 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x25_P2.54mm_Vertical" (id 2) (at 19.685 64.77 0)
+    (property "Footprint" "Connector_Dsub:DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" (id 2) (at 19.685 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 19.685 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "manf#" "A-DF 25 A/KG-T2S" (id 4) (at 19.685 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 603500d2-9cc9-4631-9647-0aff3677fbfe))
@@ -4442,7 +4445,7 @@
       (reference "FID3") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.5mm_Mask1.5mm")
     )
     (path "/00000000-0000-0000-0000-000063a3ff2d"
-      (reference "J1") (unit 1) (value "ANALYZER") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x25_P2.54mm_Vertical")
+      (reference "J1") (unit 1) (value "ANALYZER") (footprint "Connector_Dsub:DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm")
     )
     (path "/00000000-0000-0000-0000-000063a4c84d"
       (reference "J2") (unit 1) (value "ECU") (footprint "Britishideas:Pins_1x25_P3.00mm_18AWG")
